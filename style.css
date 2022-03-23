@@ -26,35 +26,40 @@ Version: 1.0
     1. SLIDER AREA
 -----------------------------*/
 .slide-bg-one {
-  background: rgba(0, 0, 0, 0) url("assest/img/slider/slide_1.jpg") ;  
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/home.png") ;  
   height: 120%; 
 
   /* Center and scale the image nicely */
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1350px 600px;
 }
 
 .slide-bg-two {
-  background: rgba(0, 0, 0, 0) url("assest/img/slider/slide_2.jpg") ;
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/maths.png") ;
   height: 120%; 
 
   /* Center and scale the image nicely */
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1350px 600px;
 }
 
 .slide-bg-three {
-  background: rgba(0, 0, 0, 0) url("assest/img/slider/slide-1.jpg"); 
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/chess.png"); 
   height: 120%; 
 
   /* Center and scale the image nicely */
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1350px 600px;
 }
 
+.slide-bg-four{
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/python.png"); 
+  height: 120%; 
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: 1350px 600px;
+}
 .welcome-slider-area .owl-controls {
   margin-top: -80px;
   position: absolute;
@@ -666,4 +671,12 @@ label.mt10.valid {
 .scrolltotop:hover {
   background: #3ee792;
   color: #ffffff;
+}
+
+.modal-header{
+  background-color: #e76c6d;
+  color: white;
+}
+.modal-title{
+  text-align: center;
 }
