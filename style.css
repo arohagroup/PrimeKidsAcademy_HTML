@@ -20,19 +20,39 @@ Version: 1.0
     11. FOOTER AREA
     12. SCROLL TO TOP AREA
 ----------------------------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
 
 /*--------------------------
     1. SLIDER AREA
 -----------------------------*/
+
+@media only screen and (max-width: 600px) {
+  #carouselExampleIndicators {
+    height: 100%;
+  }
+  a.navbar-brand {
+    margin-right: 200px;
+  }
+  .carousel-caption {
+    margin-bottom: 0%;
+    margin-right: 0%;
+    color: white;
+  }
+}
+.carousel-caption {
+  margin-bottom: 26%;
+  margin-right: 50%;
+  color: white;
+}
+
 .slide-bg-one {
-  background: rgba(0, 0, 0, 0) url("assest/img/slider/home.png") center no-repeat cover  ;  
- 
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/home.png") center
+    no-repeat cover;
 }
 
 .slide-bg-two {
-  background: rgba(0, 0, 0, 0) url("assest/img/slider/maths.png") ;
-  height: 120%; 
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/maths.png");
+  height: 120%;
 
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
@@ -40,17 +60,17 @@ Version: 1.0
 }
 
 .slide-bg-three {
-  background: rgba(0, 0, 0, 0) url("assest/img/slider/chess.png"); 
-  height: 120%; 
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/chess.png");
+  height: 120%;
 
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
   background-size: 1350px 600px;
 }
 
-.slide-bg-four{
-  background: rgba(0, 0, 0, 0) url("assest/img/slider/python.png"); 
-  height: 120%; 
+.slide-bg-four {
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/python.png");
+  height: 120%;
 
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
@@ -71,7 +91,7 @@ Version: 1.0
   opacity: 1;
 }
 
-.welcome-slider-area .owl-nav>div {
+.welcome-slider-area .owl-nav > div {
   background: #d3ffea none repeat scroll 0 0;
   border-radius: 50%;
   bottom: 0;
@@ -87,34 +107,28 @@ Version: 1.0
   width: 50px;
 }
 
-.welcome-slider-area .owl-nav>div:hover {
+.welcome-slider-area .owl-nav > div:hover {
   background: #31dc89 none repeat scroll 0 0;
   color: #ffffff;
 }
 
-
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
   color: white !important;
-  font-size:medium;
+  font-size: medium;
   margin-right: 20px;
 }
 
 .navbar-light {
-  background:transparent !important;
-  transition:0.75s ease;
+  background: transparent !important;
+  transition: 0.75s ease;
 }
 .navbar-light.scrolled {
-  background:#000 !important;
+  background: #000 !important;
 }
 
-
-  ul{
-    top:-50px
-  }
-
-  
-
-
+ul {
+  top: -50px;
+}
 
 /*--------------------------------
     2. FEATURES AREA
@@ -123,7 +137,7 @@ Version: 1.0
   background: #ffffff none repeat scroll 0 0;
   -webkit-box-shadow: 0 9px 9px 0 #c7c7c7;
   box-shadow: 0 9px 9px 0 #c7c7c7;
-  margin-top: -100px;
+  margin-top: -450px;
   padding-top: 30px;
   position: relative;
   z-index: 1;
@@ -144,7 +158,8 @@ Version: 1.0
     3. FUN FACT AREA
 ----------------------------------*/
 .fun-fact-area .area-bg {
-  background: rgba(0, 0, 0, 0) url("assest/img/fact-bg.jpg") no-repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) url("assest/img/fact-bg.jpg") no-repeat scroll
+    center center / cover;
 }
 
 .fun-fact-area .area-bg::after {
@@ -360,7 +375,7 @@ a.enroll-button:hover {
   overflow: hidden;
 }
 
-.testmonial-area .owl-nav>div {
+.testmonial-area .owl-nav > div {
   background: #3ee792 none repeat scroll 0 0;
   border-radius: 50%;
   color: #ffffff;
@@ -378,22 +393,22 @@ a.enroll-button:hover {
   width: 40px;
 }
 
-.testmonial-area .owl-nav>div.owl-next {
+.testmonial-area .owl-nav > div.owl-next {
   left: auto;
   right: -30px;
 }
 
-.testmonial-area .owl-nav>div:hover {
+.testmonial-area .owl-nav > div:hover {
   background: #586082 none repeat scroll 0 0;
 }
 
-.owl-carousel:hover .owl-nav>div.owl-next {
+.owl-carousel:hover .owl-nav > div.owl-next {
   opacity: 1;
   right: 0;
   visibility: visible;
 }
 
-.owl-carousel:hover .owl-nav>div.owl-prev {
+.owl-carousel:hover .owl-nav > div.owl-prev {
   left: 0;
   opacity: 1;
   visibility: visible;
@@ -410,7 +425,7 @@ a.enroll-button:hover {
   transform: translateX(-50%);
 }
 
-.testmonial-area .owl-dots>div {
+.testmonial-area .owl-dots > div {
   border: 1px solid #586082;
   border-radius: 50%;
   display: inline-block;
@@ -421,7 +436,7 @@ a.enroll-button:hover {
   width: 15px;
 }
 
-.testmonial-area .owl-dots>div.active {
+.testmonial-area .owl-dots > div.active {
   background: #3ee792 none repeat scroll 0 0;
   border-color: #3ee792;
 }
@@ -460,7 +475,7 @@ a.enroll-button:hover {
 }
 
 .blog-meta a {
-  opacity: .7;
+  opacity: 0.7;
   margin-right: 15px;
 }
 
@@ -577,7 +592,8 @@ a.enroll-button:hover {
   padding: 0;
 }
 
-.block-23 ul li, .block-23 ul li>a {
+.block-23 ul li,
+.block-23 ul li > a {
   display: table;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -587,7 +603,8 @@ a.enroll-button:hover {
   color: black;
 }
 
-.block-23 ul li .icon, .block-23 ul li .text {
+.block-23 ul li .icon,
+.block-23 ul li .text {
   display: table-cell;
   vertical-align: top;
 }
@@ -693,10 +710,10 @@ label.mt10.valid {
   color: #ffffff;
 }
 
-.modal-header{
+.modal-header {
   background-color: #e76c6d;
   color: white;
 }
-.modal-title{
+.modal-title {
   text-align: center;
 }
