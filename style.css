@@ -26,12 +26,8 @@ Version: 1.0
     1. SLIDER AREA
 -----------------------------*/
 .slide-bg-one {
-  background: rgba(0, 0, 0, 0) url("assest/img/slider/home.png") ;  
-  height: 120%; 
-
-  /* Center and scale the image nicely */
-  background-repeat: no-repeat;
-  background-size: 1350px 600px;
+  background: rgba(0, 0, 0, 0) url("assest/img/slider/home.png") center no-repeat cover  ;  
+ 
 }
 
 .slide-bg-two {
@@ -95,6 +91,30 @@ Version: 1.0
   background: #31dc89 none repeat scroll 0 0;
   color: #ffffff;
 }
+
+
+.navbar-light .navbar-nav .nav-link{
+  color: white !important;
+  font-size:medium;
+  margin-right: 20px;
+}
+
+.navbar-light {
+  background:transparent !important;
+  transition:0.75s ease;
+}
+.navbar-light.scrolled {
+  background:#000 !important;
+}
+
+
+  ul{
+    top:-50px
+  }
+
+  
+
+
 
 /*--------------------------------
     2. FEATURES AREA
