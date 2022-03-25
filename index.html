@@ -48,9 +48,7 @@
   <link href="assest/css/responsive.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="assest/js/vendor/modernizr-2.8.3.min.js"></script>
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
   <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -82,9 +80,9 @@
 
   <!--START TOP AREA-->
   <header class="top-area" id="home">
-    <div class="header-top-area" id="scroolup">
+    <!-- <div class="header-top-area" id="scroolup"> -->
       <!--MAINMENU AREA-->
-      <div class="mainmenu-area " id="mainmenu-area">
+      <!-- <div class="mainmenu-area " id="mainmenu-area">
         <div class="mainmenu-area-bg"></div>
         <nav class="navbar navbar-expand-lg">
           <div class="container">
@@ -110,17 +108,17 @@
             </div>
           </div>
         </nav>
-      </div>
+      </div> -->
 
-      <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #e76c6d;">
         <a class="navbar-brand" href="#"><img src="assest/img/Primekidsacademylogo.png" alt="Prime Kids Academy: Online Education Center"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" style="background-color: aliceblue;border:1px solid white;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse"  id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto" >
-            <li class="nav-item active">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav">
+            <li class="nav-item active ">
               <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -129,7 +127,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#features">Features & Promotions</a>
             </li>
-            
             <li class="nav-item">
               <a class="nav-link" href="#affiliate">Affiliates</a>
             </li>
@@ -139,23 +136,25 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#offering">Maths</a>
-                <a class="dropdown-item" href="#offering">chess</a>
-                
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#offering">Chess</a>
+                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#offering">Python</a>
-             
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link" onclick="openForm();"  >SignUp</a>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">SignUp</a>
             </li>
+            
           </ul>
-       
+         
         </div>
-      </nav> -->
+      </nav>
       <!--END MAINMENU AREA END-->
-    </div>
+ 
 
     <!--WELCOME SLIDER AREA-->
     <!-- <div class="welcome-slider-area white font16" style="height: 560px;">
@@ -263,22 +262,23 @@
       </div>
     </div> -->
     <!--WELCOME SLIDER AREA END-->
-    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel" >
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
-      <div class="carousel-inner slide-bg-overlay ">
+      <div class="carousel-inner  ">
         <div class="carousel-item active ">
+          <div class="overlay"></div>
           <img class="d-block w-100"  src="assest/img/slider/home.png" alt="First slide">
-          <div class="carousel-caption d-none d-md-block" >
-            <h1>Ongoing Promotions </h1>
-					<p> Referral Bonus of $100 </p>
-					<p> Great Sibling Discount </p>
-					<p> Bundle Class Discount </p>
-					<p> No registration or administrative fee </p>
+          <div class="carousel-caption">
+          <h1>Ongoing Promotions </h1>
+					<p>* Referral Bonus of $100 </p>
+					<p>* Great Sibling Discount </p>
+					<p>* Bundle Class Discount </p>
+					<p>* No registration or administrative fee </p>
           <div class="sign-up">
             <h3><a href="#register">Sign-Up for Free Demo</a></h3>
             <ul>
@@ -286,14 +286,21 @@
             <li><span class="icofont icofont-envelope"></span><span class="text">contactus@primekidsacademy.com</span></a></li>
             </ul>
           </div>
+          <div>
+						<ul class="ftco-footer-social alignleft padding10">
+                                <li class="fadeInUp"><a title="Prime Kids Academy facebook page" target="_blank" href="https://facebook.com/primekidsacademy"><span class="icofont icofont-social-facebook"></span></a></li>
+                                <li class="fadeInUp"><a title="Prime Kids Academy youtube channel" target="_blank" href="https://www.youtube.com/channel/UCWlaFJLjqWLiJZrIaoU__oA"><span class="icofont icofont-social-youtube"></span></a></li>
+						</ul>
+				</div>
           </div>
         </div>
         <div class="carousel-item">
+          <div class="overlay"></div>
           <img class="d-block w-100" src="assest/img/slider/maths.png" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block" >
+          <div class="carousel-caption" >
             <h1>The best online learning experience</h1>
-            <p>Course and Methodology developed by engineering and management graduates from IIM and NIT's.
-    Education integrated with technology, concepts and quality teachers.
+            <p>Course and Methodology developed by engineering and <br> management graduates from IIM and NIT's.
+    Education <br>integrated with technology, concepts and quality teachers.<br>
     You can trust us with your kid's education.</p>
            <div class="sign-up">
     <h3><a href="#register">Sign-Up for Free Demo</a></h3>
@@ -302,14 +309,21 @@
     <li><span class="icofont icofont-envelope"></span><span class="text">contactus@primekidsacademy.com</span></a></li>
     </ul>
            </div>
+           <div>
+						<ul class="ftco-footer-social alignleft padding10">
+                                <li class="fadeInUp"><a title="Prime Kids Academy facebook page" target="_blank" href="https://facebook.com/primekidsacademy"><span class="icofont icofont-social-facebook"></span></a></li>
+                                <li class="fadeInUp"><a title="Prime Kids Academy youtube channel" target="_blank" href="https://www.youtube.com/channel/UCWlaFJLjqWLiJZrIaoU__oA"><span class="icofont icofont-social-youtube"></span></a></li>
+						</ul>
+				</div>
         </div>
         </div>
         <div class="carousel-item">
+          <div class="overlay"></div>
           <img class="d-block w-100" src="assest/img/slider/chess.png" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block" >
+          <div class="carousel-caption " >
 
             <h1>Online Maths, Python, Chess & Hindi Classes</h1>
-				  <p>We provide best in class coaching for Maths,Chess,Python and Hindi. We are miles ahead than others. Check us out. </p>
+				  <p>We provide best in class coaching for Maths,Chess,Python<br> and Hindi. We are miles ahead than others. Check us out. </p>
                  <div class="sign-up">
 					<h3><a href="#register">Sign-Up for Free Demo</a></h3>
 					<ul>
@@ -326,11 +340,12 @@
           </div>
         </div>
         <div class="carousel-item">
+          <div class="overlay"></div>
           <img class="d-block w-100" src="assest/img/slider/python.png" alt="Fourth slide">
-          <div class="carousel-caption d-none d-md-block" >
+          <div class="carousel-caption " >
             <h1>The best online learning experience</h1>
-            <p>Course and Methodology developed by engineering and management graduates from IIM and NIT's.
-    Education integrated with technology, concepts and quality teachers.
+            <p>Course and Methodology developed by engineering and<br> management graduates from IIM and NIT's.
+    Education<br> integrated with technology, concepts and quality teachers.<br>
     You can trust us with your kid's education.</p>
            <div class="sign-up">
     <h3><a href="#register">Sign-Up for Free Demo</a></h3>
@@ -339,6 +354,12 @@
     <li><span class="icofont icofont-envelope"></span><span class="text">contactus@primekidsacademy.com</span></a></li>
     </ul>
            </div>
+           <div>
+						<ul class="ftco-footer-social alignleft padding10">
+                                <li class="fadeInUp"><a title="Prime Kids Academy facebook page" target="_blank" href="https://facebook.com/primekidsacademy"><span class="icofont icofont-social-facebook"></span></a></li>
+                                <li class="fadeInUp"><a title="Prime Kids Academy youtube channel" target="_blank" href="https://www.youtube.com/channel/UCWlaFJLjqWLiJZrIaoU__oA"><span class="icofont icofont-social-youtube"></span></a></li>
+						</ul>
+				</div>
 
           </div>
         </div>
@@ -359,17 +380,17 @@
   <section class="features-top-area" id="features">
     <div class="container">
       <div class="row promo-content">
-        <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+        <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12">
           <div class="text-icon-box relative mb20 xs-mb0 wow fadeInUp padding30" data-wow-delay="0.3s">
             <div class="box-icon features-box-icon">
               <i class="fa fa-gift"></i>
             </div>
-            <h3 class="box-title">Ongoing Promotions</h3>
-					<p> Referral Bonus of $100</p>
-					<p> Great Sibling Discount</p>
-					<p> Bundle Class Discount</p>
-					<p> No registration or administrative fee </p>
-              <div class="block-23">
+            <h3  style="margin-left: 30px;" class="box-title">Ongoing Promotions</h3>
+					<p style="margin-left: 70px;"> Referral Bonus of $100</p>
+					<p style="margin-left: 70px;"> Great Sibling Discount</p>
+					<p style="margin-left: 70px;"> Bundle Class Discount</p>
+					<p style="margin-left: 70px;"> No registration or administrative fee </p>
+              <div style="margin-left: 30px;" class="block-23">
               <p>  <span class="remarks">Conatct us for more details <span> </p>
                 <ul>
                 <li><span class="icofont icofont-location-pin"></span><span class="text">8845 Rodeo Dr,Irving, TX, USA</span></li>
@@ -390,7 +411,7 @@
             <div class="box-icon features-box-icon">
               <i class="fa fa-graduation-cap"></i>
             </div>
-            <h3 class="box-title">Education Model</h3>
+            <h3 style="margin-left: 30px;" class="box-title">Education Model</h3>
             <p>  1. Every topic starts with a definition. This helps a student to understand its relevance and usage in life.</p>
 				<p>2. It is then followed by practice exercises that student does during class sessions. They can do the remaining exercise at home through the online portal.</p>
 				<p>3. Classes are conducted twice a week.</p>
@@ -402,7 +423,7 @@
             <div class="box-icon features-box-icon">
               <i class="icofont icofont-business-man-alt-1"></i>
             </div>
-            <h3 class="box-title">Expert Instructors</h3>
+            <h3 style="margin-left: 30px;" class="box-title">Expert Instructors</h3>
             <p>We are backed by a pool of professionals comprising of graduates from premier Indian institutes like IIMs, NITs. We have experienced teachers who are passionate about education.</p>
 			<p>Our Chess teacher is an international player and holds the FIDE title of world chess master</p>
             <p>You can rest assure that your kids are guided by the best.</p>
@@ -413,7 +434,7 @@
             <div class="box-icon features-box-icon">
               <i class="fa fa-rocket"></i>
             </div>
-            <h3 class="box-title">Learn from anywhere</h3>
+            <h3 style="margin-left: 30px;" class="box-title">Learn from anywhere</h3>
             <p>Online Education is the future of education and provides you the flexibility to learn from anywhere and anytime. We offer online classes for students. They can schedule classes based on topics of their choice or for the entire curriculum.
               <br> Note: Contact classes are limited to Bangalore(KA, India) and Meerut (U.P, India). However, we offer online tutoring for students across the globe.</p>
           </div>
@@ -582,16 +603,16 @@
     </div>
   </section>
 
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade modal-lg " id="myModal" role="dialog" data-backdrop="false">
     <div class="modal-dialog">
   
       <!-- Modal content-->
       <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-         
+        <div class="modal-header" style="background-color: #e76c6d;color: white;">
           <h4 class="modal-title"> <img src="assest/img/favicon.png" style="width:50px;height: 50px;margin-right: 10px; border-radius: 50%;">    Sign up for a free demo session and offers!!.</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        
         <div class="col-md-8 col-md-offset-2">
           <!-- <div class="contact-title wow fadeIn">
                   <h3 class="font28 text-center lg-padding-left70 mb10 xs-mb30 xs-font22 xs-mt20">Sign up for a free demo session and offers!!.</h3>
@@ -822,7 +843,9 @@
   </footer>
   <!--FOOER AREA END-->
 
-
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <!--====== SCRIPTS JS ======-->
   <script src="assest/js/vendor/jquery-1.12.4.min.js"></script>
   <script src="assest/js/vendor/bootstrap.min.js"></script>
