@@ -149,8 +149,8 @@ nav .navbar-nav li a {
 }
 @media (max-width: 600px) {
   .navbar-brand > img {
-    margin-right: 80px;
-    width: 65%;
+    margin-right: 70px;
+    width: 55%;
   }
   nav {
     height: auto;
@@ -220,9 +220,17 @@ nav .navbar-nav li a {
   font-size: 0.83em
 }
 .ftco-footer-social li a span .icofont{
-  width: 14px !important;
+    width: 14px !important;
     height: 14px !important;
  }
+
+ .carousel-control-prev{
+display: none;
+}
+.carousel-control-next{
+display: none;
+}
+
 }
 
 .slide-bg-one {
