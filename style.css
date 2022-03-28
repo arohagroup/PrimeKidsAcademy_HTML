@@ -147,6 +147,36 @@ nav .navbar-nav li a {
   margin-top: 300px;
   margin-right: 100px;
 }
+/*--------------------------------
+    2. FEATURES AREA
+---------------------------------*/
+.row.promo-content {
+  background: #ffffff none repeat scroll 0 0;
+  -webkit-box-shadow: 0 9px 9px 0 #c7c7c7;
+  box-shadow: 0 9px 9px 0 #c7c7c7;
+  margin-top: -100px;
+  padding-top: 0px;
+  position: relative;
+  z-index: 1;
+  width: 1428px;
+  margin-left: -155px;
+}
+ 
+
+
+.features-box-icon {
+  background: #e6b9b9 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #e76c6d;
+  height: 70px;
+  margin-bottom: 40px;
+  padding-top: 15px;
+  text-align: center;
+  width: 70px;
+  margin-left: 70px;
+}
+
+
 @media (max-width: 600px) {
   .navbar-brand > img {
     margin-right: 60px;
@@ -230,6 +260,12 @@ display: none;
 .carousel-control-next{
 display: none;
 }
+.row.promo-content{
+  width: auto;
+  margin-left: -10px;
+}
+
+
 
 }
 
@@ -303,30 +339,6 @@ display: none;
   color: white;
 }
 
-/*--------------------------------
-    2. FEATURES AREA
----------------------------------*/
-.row.promo-content {
-  background: #ffffff none repeat scroll 0 0;
-  -webkit-box-shadow: 0 9px 9px 0 #c7c7c7;
-  box-shadow: 0 9px 9px 0 #c7c7c7;
-  margin-top: -100px;
-  padding-top: 0px;
-  position: relative;
-  z-index: 1;
-}
-
-.features-box-icon {
-  background: #e6b9b9 none repeat scroll 0 0;
-  border-radius: 5px;
-  color: #e76c6d;
-  height: 70px;
-  margin-bottom: 40px;
-  padding-top: 15px;
-  text-align: center;
-  width: 70px;
-  margin-left: 40px;
-}
 
 /*----------------------------------
     3. FUN FACT AREA
