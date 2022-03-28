@@ -149,7 +149,7 @@ nav .navbar-nav li a {
 }
 @media (max-width: 600px) {
   .navbar-brand > img {
-    margin-right: 70px;
+    margin-right: 60px;
     width: 55%;
   }
   nav {
