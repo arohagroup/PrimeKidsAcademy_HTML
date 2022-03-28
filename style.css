@@ -48,7 +48,7 @@ body {
   padding-right: 0px !important;
 }
 nav {
-  height: 55px;
+  height: 60px;
 }
 nav .navbar-nav li a {
   color: white !important;
@@ -66,16 +66,16 @@ nav .navbar-nav li a {
   font-size: medium;
 }
 .navbar-nav > li {
-  margin-left: 50px;
-
-  font-size: medium;
+  margin-left: 80px;
+  font-size: 21px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .navbar-brand {
   margin-bottom: 15px;
   margin-top: 0%;
 }
 .modal {
-  margin-left: 900px;
+  margin-left: 1100px;
   margin-top: 50px;
 }
 .modal-lg {
@@ -88,11 +88,11 @@ nav .navbar-nav li a {
   padding: 0px;
 }
 .carousel-caption {
-  margin-bottom: 26%;
+  margin-bottom: 5%;
   margin-right: 50%;
   color: white;
   text-align: left;
-  font-family: sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   max-width: 100%;
   width: 100%;
 }
@@ -100,34 +100,53 @@ nav .navbar-nav li a {
   color: white !important;
   text-align: left;
   font-size: 140%;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
 }
 .carousel-caption h1 {
   color: white !important;
   text-align: left;
   font-weight: 800;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #000000;
 }
 .carousel-caption h3 {
   text-align: left;
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
 }
 .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(46, 45, 45, 0.5);
   opacity: 0.7;
 }
-.carousel-inner .carousel-item {
-  height: 1000px;
+.carousel-inner > .carousel-item > img {
+  width: 100%;
+  height: 700px;
 }
-
-.carousel-item img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 400px;
+.sign-up ul>li .text{
+   font-size: 15px;
 }
-
+.carousel-control-prev{
+  background-color: #e76c6d;
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 100%;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+.carousel-control-next{
+  background-color: #e76c6d;
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 100%;
+  margin-top: 300px;
+  margin-right: 100px;
+}
 @media (max-width: 600px) {
   .navbar-brand > img {
     margin-right: 80px;
@@ -151,13 +170,11 @@ nav .navbar-nav li a {
     background-color: rgb(196, 143, 143);
     color: #e76c6d;
   }
-  .carousel-caption {
-    display: none;
-  }
+
   .features-box-icon {
-    background: #d3ffea none repeat scroll 0 0;
+    background: #e6b9b9 none repeat scroll 0 0;
     border-radius: 5px;
-    color: #31dc89;
+    color: #e76c6d;
     height: 70px;
     margin-bottom: 40px;
     padding-top: 15px;
@@ -168,16 +185,44 @@ nav .navbar-nav li a {
   .modal-lg {
     max-width: 80% !important;
   }
-  .carousel-inner .carousel-item {
+  .carousel-inner > .carousel-item > img {
+    width: 100%;
     height: 300px;
   }
-
-  .carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
+  .carousel-caption {
+    color: white;
+    font-family: sans-serif;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 0%;
+    
   }
+  .carousel-caption p {
+   color: white !important;
+   font-size: 10px;
+  
+  }
+  .carousel-caption h1 {
+    margin-top: 40%;
+    color: white !important;
+    font-weight: 800;
+    font-size: 15px;
+    
+  }
+  .carousel-caption h3 {
+    font-size: 5px;
+    
+  }
+  .sign-up ul>li .text{
+    font-size: 10px;
+ }
+ .sign-up ul>li .icofont{
+  font-size: 0.83em
+}
+.ftco-footer-social li a span .icofont{
+  width: 14px !important;
+    height: 14px !important;
+ }
 }
 
 .slide-bg-one {
@@ -257,16 +302,16 @@ nav .navbar-nav li a {
   background: #ffffff none repeat scroll 0 0;
   -webkit-box-shadow: 0 9px 9px 0 #c7c7c7;
   box-shadow: 0 9px 9px 0 #c7c7c7;
-  margin-top: -400px;
+  margin-top: -100px;
   padding-top: 0px;
   position: relative;
   z-index: 1;
 }
 
 .features-box-icon {
-  background: #d3ffea none repeat scroll 0 0;
+  background: #e6b9b9 none repeat scroll 0 0;
   border-radius: 5px;
-  color: #31dc89;
+  color: #e76c6d;
   height: 70px;
   margin-bottom: 40px;
   padding-top: 15px;
