@@ -175,6 +175,120 @@ nav .navbar-nav li a {
   width: 70px;
   margin-left: 70px;
 }
+#newfeature h1{
+  font-size: 36px;
+  color: #555;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ #newfeature h3{
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#newfeature .fa-gift{
+  margin-top: -50px;
+  background-color: white;
+ color: #e76c6d;
+ border-radius: 90px;
+ font-size: 80px;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: -60px;
+}
+#newfeature .fa-graduation-cap{
+  margin-top: -50px;
+  background-color: white;
+ color: #e76c6d;
+ border-radius: 110px;
+ font-size: 70px;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 25px;
+ padding-bottom: 25px;
+ margin-top: -60px;
+}
+#newfeature .fa-user{
+  margin-top: -50px;
+  background-color: white;
+ color: #e76c6d;
+ border-radius: 90px;
+ font-size: 80px;
+ padding-left: 35px;
+ padding-right: 35px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: -60px;
+}
+#newfeature .fa-rocket{
+  margin-top: -50px;
+  background-color: white;
+ color: #e76c6d;
+ border-radius: 90px;
+ font-size: 80px;
+ padding-left: 25px;
+ padding-right: 25px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: -60px;
+}
+
+#newfeature .icofont{
+  font-size: 26px;
+  color: #555;
+}
+#newfeature p{
+  font-weight: 500;
+  font-size: 12px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#newfeature .card{
+border-radius: 20px;
+box-shadow: 5px 5px 15px #e76c6d;
+transition: all 0.3s ease-in;
+-webkit-transition: all 0.3s ease-in;
+-moz-transition:  all 0.3s ease-in ;
+height: 45rem;
+margin-top: -95px;
+background-color: #e76c6d;
+color: white;
+
+}
+#newfeature .card:hover{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 5px 5px 10px #9E9E9E;
+
+}
+#newfeature .card:hover h1 ,#newfeature .card:hover h3{
+  color: #555
+}
+.jumbotron{
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("assest/img/jumbo1.jpg");
+  height: 30rem;
+  margin-bottom: 20px;
+
+}
+.jumbotron h2{
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+.jumbotron p{
+  color: white;
+  margin: auto;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
 
 
 @media (max-width: 600px) {
@@ -266,8 +380,113 @@ display: none;
 }
 
 
+#newfeature h1{
+  font-size: 36px;
+  color: #555;
+  font-weight: bold;
+}
+ #newfeature h3{
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+#newfeature .fa-gift{
+
+  background-color: white;
+ color: #e76c6d;
+ border-radius: 90px;
+ font-size: 90px;
+ padding-left: 25px;
+ padding-right: 25px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ 
+}
+#newfeature .fa-graduation-cap{
+
+  background-color: white;
+ color: #e76c6d;
+ border-radius: 100px;
+ font-size: 70px;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ 
+}
+#newfeature .fa-user{
+  
+  background-color: white;
+ color: #e76c6d;
+ border-radius: 90px;
+ font-size: 90px;
+ padding-left: 35px;
+ padding-right: 35px;
+ padding-top: 20px;
+ padding-bottom: 20px;
 
 }
+#newfeature .fa-rocket{
+ 
+  background-color: white;
+ color: #e76c6d;
+ border-radius: 90px;
+ font-size: 90px;
+ padding-left: 25px;
+ padding-right: 25px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+
+#newfeature .icofont{
+  font-size: 26px;
+  color: #555;
+}
+#newfeature p{
+  font-weight: 500;
+  font-size: 12px ;
+}
+#newfeature .card{
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #e76c6d;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition:  all 0.3s ease-in ;
+  height: 45rem;
+  margin-top: 10px;
+  margin-bottom:50px ;
+  
+  
+  }
+  #newfeature .card:hover{
+    background-color: #e76c6d;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+  
+  }
+#newfeature .card:hover h1 ,#newfeature .card:hover h3{
+  color: #fff;
+}
+.jumbotron{
+ height: 55rem;
+
+}
+.jumbotron h2{
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+ 
+}
+.jumbotron p{
+  color: white;
+  margin: auto;
+}
+
+}
+
 
 .slide-bg-one {
   background: rgba(0, 0, 0, 0) url("assest/img/slider/home.png") center
