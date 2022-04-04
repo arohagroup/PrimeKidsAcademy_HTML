@@ -272,6 +272,19 @@ color: rgb(15, 15, 15);
   
 
 }
+#newfeature .icofont-location-pin {
+
+  font-size: medium;
+}
+#newfeature .icofont-phone{
+  font-size: medium;
+}
+#newfeature .icofont-envelope {
+  font-size: medium;
+
+}
+
+
 #newfeature .card:hover h1 ,#newfeature .card:hover h3{
   color: #555
 }
@@ -279,6 +292,9 @@ color: rgb(15, 15, 15);
   /* background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("assest/img/jumbo1.jpg"); */
   height: 20rem;
   margin-bottom: 20px;
+  background-color: white !important;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 .jumbotron h2{
@@ -394,7 +410,7 @@ display: none;
   font-weight: bold;
 }
  #newfeature h3{
-  font-size: 24px;
+  font-size: 20px;
   color: #333;
   font-weight: bold;
 }
@@ -457,7 +473,8 @@ display: none;
 }
 #newfeature .card{
   border-radius: 20px;
-  box-shadow: 5px 5px 15px #e76c6d;
+  box-shadow: 5px 5px 10px #9E9E9E;
+ 
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition:  all 0.3s ease-in ;
@@ -472,11 +489,23 @@ display: none;
     color: #fff;
     border-radius: 20px;
     border: none;
-    box-shadow: 5px 5px 10px #9E9E9E;
+    box-shadow: 5px 5px 15px #e76c6d;
   
   }
 #newfeature .card:hover h1 ,#newfeature .card:hover h3{
   color: #fff;
+}
+
+#newfeature .icofont-location-pin {
+
+  font-size: medium;
+}
+#newfeature .icofont-phone{
+  font-size: medium;
+}
+#newfeature .icofont-envelope {
+  font-size: medium;
+
 }
 .jumbotron{
  height: 55rem;
