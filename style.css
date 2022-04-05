@@ -44,17 +44,48 @@ Version: 1.0
 } */
 
 /* NEW STYLES */
+
+
+@media(min-width: 1920px){
+  .carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+
+  }
+  .testmonial-area h2{
+    margin-top: 250px;
+    margin-left: 80px !important;
+    font-size: 35px;
+    font-weight: 650;
+  }
+  .navbar-brand {
+    margin-bottom: 15px;
+    margin-top: 0%;
+    margin-left: 650px;
+   
+  }
+  .modal {
+    margin-left: 1600px !important;
+    margin-top: 50px;
+  }
+ 
+ 
+
+}
+
 body {
   padding-right: 0px !important;
 }
-nav {
-  height: 60px;
+.navbar {
+  height: 65px;
+  background-color: black;
 }
-nav .navbar-nav li a {
+ .navbar-nav li a {
   color: white !important;
 }
 .navbar .dropdown-menu {
-  background-color: #e76c6d;
+  background-color: #0f0f0f;
   width: 150px;
 }
 .navbar .dropdown-menu a:hover {
@@ -68,11 +99,12 @@ nav .navbar-nav li a {
 .navbar-nav > li {
   margin-left: 50px;
   font-size: 17px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 .navbar-brand {
   margin-bottom: 15px;
   margin-top: 0%;
+ 
 }
 .modal {
   margin-left: 900px;
@@ -92,7 +124,7 @@ nav .navbar-nav li a {
   /* margin-right: 50%; */
   color: white;
   text-align: left;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
   max-width: 100%;
   width: 100%;
 }
@@ -127,7 +159,7 @@ nav .navbar-nav li a {
 }
 .carousel-inner > .carousel-item > img {
   width: 100%;
-  height: 500px;
+  background-size: cover;
 }
 .sign-up ul>li .text{
    font-size: 15px;
@@ -177,16 +209,16 @@ nav .navbar-nav li a {
   margin-left: 70px;
 }
 #newfeature h1{
-  font-size: 36px;
+  font-size: 30px;
   color: #555;
   font-weight: bold;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
  #newfeature h3{
-  font-size: 24px;
+  font-size: 20px;
   color: #333;
   font-weight: bold;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 #newfeature .fa-gift{
   margin-top: -50px;
@@ -248,7 +280,7 @@ nav .navbar-nav li a {
 #newfeature p{
   font-weight: 500;
   font-size: 12px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 #newfeature .card{
 border-radius: 20px;
@@ -310,33 +342,75 @@ color: rgb(15, 15, 15);
   margin: auto;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.btn-default{
+  color: #333;
+background-color: #fff;
+border-color: #ccc !important;
+}
+.testmonial-area h2{
+  margin-top: 250px;
+  margin-left: -931px;
+  font-size: 35px;
+  font-weight: 650;
+}
+.faqs-area h2{
 
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
 
+}
+.faqs-area h3{
 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 
+}
+.faqs-area p{
+ font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.single-footer  h3{
+  font-size: 24px;
+  font-weight: 700;
+}
+.block-23 .text{
+  font-size: 14px;
+}
+.footer-copyright p{
+font-size: 15px;
+}
+
+/* mobile screen optimization */
 
 @media (max-width: 600px) {
   .navbar-brand > img {
     margin-right: 60px;
-    width: 55%;
+    width: 50%;
   }
   nav {
     height: auto;
+  }
+  .navbar .navbar-collapse{
+    background-color: black;
+
   }
   .modal {
     margin-left: 0px;
     margin-top: 0px;
   }
   #carouselExampleIndicators {
-    margin-top: 75px;
+    margin-top: 65px;
   }
   .navbar .dropdown-menu {
-    background-color: #e76c6d;
+    background-color: #111010;
     width: 200px;
   }
   .navbar .dropdown-menu a:hover {
-    background-color: rgb(196, 143, 143);
-    color: #e76c6d;
+    background-color: rgb(19, 18, 18);
+    color: #ffffff;
   }
 
   .features-box-icon {
@@ -520,6 +594,11 @@ display: none;
 .jumbotron p{
   color: rgb(26, 24, 24);
   margin: auto;
+}
+.testmonial-area h2{
+margin-left: 15px;
+margin-top: 0%;
+
 }
 
 }
@@ -823,7 +902,7 @@ a.enroll-button:hover {
   color: #ffffff;
   font-size: 30px;
   height: 40px;
-  left: -30px;
+  left: 30px;
   opacity: 0;
   padding-top: 4px;
   position: absolute;
